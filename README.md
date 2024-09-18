@@ -416,7 +416,7 @@ io.imshow(image_one_overlay)
 
 What does this code do?
 
-![HSV Color Space OpenCV Values Cells Images](Computer_Vision_HSV_ColorFiltering_Segmentation_Detection.png)
+![HSV Color Space OpenCV Values Cells Images](https://github.com/Gentiana-Hoxha/image-processing-app/blob/main/image-processing-topics/screenshots/Computer%20Vision%20HSV%20ColorFiltering%20Segmentation%20Detection.png)
 
 HSV Color Space OpenCV Values Cells Images
 
