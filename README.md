@@ -1,3 +1,5 @@
+[Notion Link](https://www.notion.so/Image-Processing-051dfb7196cd4ee38ee082a94cdaa468)
+
 # Image Processing
 
 - [x]  Make a list of topics that I need to cover
