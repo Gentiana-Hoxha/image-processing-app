@@ -5,7 +5,7 @@ windowsize_r = 8
 windowsize_c = 8
 
 # Read and convert image to grayscale
-img = cv2.imread('C:/Users/STORM/Desktop/images/High-res-1.jpg')
+img = cv2.imread('/Users/g.hoxha/Documents/GitHub/image-processing-app/image-processing-topics/assets/images/High-res-1.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Calculate padding sizes

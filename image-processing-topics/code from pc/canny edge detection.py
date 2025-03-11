@@ -1,7 +1,7 @@
 import cv2 as cv
 
 # Read the input image
-images_folder_path = "C:/Users/STORM/Desktop/images/"
+images_folder_path = "/Users/g.hoxha/Documents/GitHub/image-processing-app/image-processing-topics/assets/images/"
 cells_image_path = images_folder_path + "images_of_cells.jpg"
 
 def callback(input):

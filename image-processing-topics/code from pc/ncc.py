@@ -46,8 +46,8 @@ def normalized_cross_correlation(image, template):
     return result
 
 # Load the image and template in grayscale
-image = cv2.imread('C:/Users/STORM/Desktop/images/mounts.png', cv2.IMREAD_GRAYSCALE) 
-template = cv2.imread('C:/Users/STORM/Desktop/images/mount2.png', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('/Users/g.hoxha/Documents/GitHub/image-processing-app/image-processing-topics/assets/images//mounts.png', cv2.IMREAD_GRAYSCALE) 
+template = cv2.imread('/Users/g.hoxha/Documents/GitHub/image-processing-app/image-processing-topics/assets/images//mount2.png', cv2.IMREAD_GRAYSCALE)
 
 # Call the custom NCC function
 ncc_result = normalized_cross_correlation(image, template)

@@ -4,9 +4,9 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-img_rgb = cv2.imread('C:/Users/STORM/Desktop/images/mounts.png')
+img_rgb = cv2.imread('/Users/g.hoxha/Documents/GitHub/image-processing-app/image-processing-topics/assets/images/mounts.png')
 img_gray = cv2.cvtColor(img_rgb, cv2.COLOR_BGR2GRAY)
-template = cv2.imread('C:/Users/STORM/Desktop/images/mount2.png', 0)
+template = cv2.imread('/Users/g.hoxha/Documents/GitHub/image-processing-app/image-processing-topics/assets/images/mount2.png', 0)
 h, w = template.shape[::]
 
 res = cv2.matchTemplate(img_gray, template, cv2.TM_CCOEFF_NORMED)

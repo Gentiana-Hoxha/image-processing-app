@@ -11,7 +11,7 @@ import cv2
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
-images_folder_path = "C:/Users/STORM/Desktop/images/"
+images_folder_path = "/Users/g.hoxha/Documents/GitHub/image-processing-app/image-processing-topics/assets/images/"
 cells_image_path = images_folder_path + "images_of_cells.jpg"
 
 img=mpimg.imread(cells_image_path)
